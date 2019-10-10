@@ -1,4 +1,4 @@
-var max_Coins = 1000;
+var max_Coins = 100;
 var Coins = [];
 var Sound;
 
