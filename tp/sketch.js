@@ -11,7 +11,7 @@ function setup() {
   noStroke();
   createCanvas(windowWidth, windowHeight);
   var url =
-    "https://openapi.seoul.go.kr:8088/434f4365526b7468313236754b6b454f/json/octastatapi10775/1/18/";
+    "http://openapi.seoul.go.kr:8088/434f4365526b7468313236754b6b454f/json/octastatapi10775/1/18/";
   loadJSON(url, onSuicide);
 }
 
